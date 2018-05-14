@@ -9,6 +9,7 @@ import javax.annotation.PostConstruct;
  */
 public class ConfigurationService {
 
+    
     private static ConfigurationService instance = new ConfigurationService();
 
     private String protocol = "http";
